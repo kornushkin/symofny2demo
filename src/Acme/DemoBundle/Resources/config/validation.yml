@@ -1,0 +1,8 @@
+Acme\DemoBundle\Entity\User:
+    properties:
+        username:
+          - Email:
+              message: The username "{{ value }}" is not a valid email.
+              checkMX: true
+        password:
+          - Length: { min: 3 }

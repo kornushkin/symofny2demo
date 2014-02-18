@@ -1,0 +1,9 @@
+{% extends "AcmeDemoBundle:Secured:layout.html.twig" %}
+
+{% block title "Hello " ~ name %}
+
+{% block content %}
+    <h1 class="title">Hello {{ name }} secured for Admins only!</h1>
+
+    <a href="{{ path('_demo_add_new_user') }}">Add new user</a>
+{% endblock %}

@@ -1,0 +1,7 @@
+propeller_user_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: PropellerUserBundle:Default:index }
+
+propeller_user_add_new_user:
+    pattern:  /propeller/addNewUser
+    defaults: { _controller: PropellerUserBundle:Default:addNewUser }

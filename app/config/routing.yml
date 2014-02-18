@@ -1,0 +1,4 @@
+propeller_user:
+    resource: "@PropellerUserBundle/Resources/config/routing.yml"
+    prefix:   /
+
